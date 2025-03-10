@@ -1,0 +1,49 @@
+:root{
+    --gold: rgb(233, 166, 84);
+}
+header{
+    background-color: black;
+    border-color: var(--gold);
+    color:rgb(241, 186, 119);
+    display: grid;
+}
+header h1{
+    font-size: 100px;
+    text-shadow: 0 0 100px white, 0 0 10px red;
+    top: 50%;
+}
+
+body{
+    background: linear-gradient(to right, brown, rgb(201, 132, 35), var(--gold));
+    text-align: center;
+}
+
+.pics{
+    margin: auto;
+    width: 80%;
+    left: 0;    
+}
+ul li{
+    text-align: left;
+}
+
+button{
+    background-color: rgb(245, 194, 66);
+    color: black;
+    width: 2
+    0%;
+}
+img{
+    width:70px;
+
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+img:hover{
+    width:85px;
+}
+img:active{
+    width:90px;
+}
